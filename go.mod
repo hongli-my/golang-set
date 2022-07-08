@@ -1,3 +1,3 @@
-module github.com/deckarep/golang-set
+module github.com/hongli-my/golang-set
 
 go 1.17

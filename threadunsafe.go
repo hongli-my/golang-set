@@ -232,7 +232,7 @@ func (set *threadUnsafeSet) String() string {
 	for elem := range *set {
 		items = append(items, fmt.Sprintf("%v", elem))
 	}
-	return fmt.Sprintf("Set{%s}", strings.Join(items, ", "))
+	return strings.Join(items, ", ")
 }
 
 // String outputs a 2-tuple in the form "(A, B)".
